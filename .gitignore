@@ -2,3 +2,4 @@
 *.class
 classpath.txt
 javac-services.*
+javaconfig.json
