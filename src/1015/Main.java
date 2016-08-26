@@ -9,11 +9,10 @@ public class Main {
     void start() {
         Scanner Scanner = new Scanner(System.in);
         int n = Scanner.nextInt();
-        Scanner.nextLine();
         String p, s;
         for (int i = 0; i < n; i++) {
-            p = Scanner.nextLine();
-            s = Scanner.nextLine();
+            p = Scanner.next();
+            s = Scanner.next();
             kmp(p, s);
         }
     }
